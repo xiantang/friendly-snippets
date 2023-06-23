@@ -174,11 +174,6 @@
         "body": "panic(\"$0\")",
         "description": "Snippet for panic"
     },
-    "http ResponseWriter *Request": {
-        "prefix": "wr",
-        "body": "${1:w} http.ResponseWriter, ${2:r} *http.Request",
-        "description": "Snippet for http Response"
-    },
     "http.HandleFunc": {
         "prefix": "hf",
         "body": "${1:http}.HandleFunc(\"${2:/}\", ${3:handler})",
